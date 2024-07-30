@@ -230,8 +230,14 @@
 									<label for="confirm-password"><i class="fa fa-key"
 										aria-hidden="true" style="padding: 0 10px"></i>Re-enter
 										Password</label>
+									<small>Please do not share your password with anyone to protect your account security.</small>
 								</div>
 							</div>
+						</div>
+						<br>
+						<div>
+							<input type="checkbox" id="acknowledge" name="acknowledge" required>
+							<label for="acknowledge">I understand that I am responsible for keeping my password confidential and will not share it with others.</label>
 						</div>
 						<br>
 						<div class="row g-3">
