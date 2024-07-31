@@ -240,6 +240,13 @@
 							<label for="acknowledge">I understand that I am responsible for keeping my password confidential and will not share it with others.</label>
 						</div>
 						<br>
+						<div>
+							<input type="checkbox" id="consent" name="consent" required>
+							<label for="consent">I consent to the handling of my personal information, including my name and phone number, in accordance with the <a href="privacy-policy.html">Privacy Policy</a>.</label>
+						</div>
+						  
+						<small>We collect your name and phone number to provide you with personalized services and for communication purposes.</small>
+						<br>  
 						<div class="row g-3">
 							<button class="btn btn-primary w-100 py-3" type="submit"
 								onClick="encryptThenSubmitForm()">Register</button>
